@@ -1,0 +1,32 @@
+package com.example.app;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class EmployeeService {
+
+	public List<Employee> getEmployees() {
+
+		List<Employee> l = Arrays.asList(new Employee("jiten", "irving", "12346"),
+				new Employee("purna", "dallas", "56678")
+
+		);
+		return l;
+
+	}
+
+	public String createEmployees(Employee e) {
+
+		System.out.println("created employee is " + e);
+		return "created employee";
+	}
+
+	public Employee getEmployee() {
+		Employee e = new Employee("ashis", "dallas", "4564");
+		return e;
+	}
+
+}

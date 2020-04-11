@@ -1,0 +1,44 @@
+package com.example.app;
+
+//@Component
+public class Employee {
+	private String name;
+	private String address;
+	private String phNo;
+	
+
+	public Employee() {
+		
+	}
+	
+	public Employee(String name, String address, String phNo) {
+		this.name = name;
+		this.address = address;
+		this.phNo = phNo;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public String getPhNo() {
+		return phNo;
+	}
+	public void setPhNo(String phNo) {
+		this.phNo = phNo;
+	}
+	@Override
+	public String toString() {
+		return "Employee [name=" + name + ", address=" + address + ", phNo=" + phNo + "]";
+	}
+	
+	
+
+}

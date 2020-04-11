@@ -1,0 +1,15 @@
+package com.example.app;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class EmployeeService {
+
+	public List<Employee> getEmployees() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

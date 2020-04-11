@@ -1,0 +1,20 @@
+package com.example.app;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class EmployeeService {
+
+	public List<Employee> getEmployees() {
+		Employee e1 = new Employee();
+
+		e1.setName("jiten");
+		e1.setAddress("irving");
+		e1.setPhNo("12345");
+
+		return null;
+	}
+
+}
